@@ -14,38 +14,41 @@ export const About = () => {
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")}alt="sitting" />
+            <img src={getImageUrl("about/cursorIcon.png")} alt="sitting" />
             <div className={styles.aboutItemsText}>
               <h3>Frontend Developer</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                quaerat aut eius. Fugit fugiat optio accusantium corrupti, totam
-                quibusdam ratione, expedita non quod illo ipsa tempore
-                voluptatibus delectus eius ex?
+                I am an experienced mid-level frontend developer proficient in
+                Vue.js and RESTful API integration, with a passion for creating
+                dynamic and responsive user interfaces. I am dedicated to
+                delivering high-quality solutions and continuously expanding my
+                skills in frontend development.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="sitting" />
             <div className={styles.aboutItemsText}>
-              <h3>Frontend Developer</h3>
+              <h3>Software Developer</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                quaerat aut eius. Fugit fugiat optio accusantium corrupti, totam
-                quibusdam ratione, expedita non quod illo ipsa tempore
-                voluptatibus delectus eius ex?
+                Contributed as a vital team member in the development of web
+                applications essential for hospital operations, assuming dual
+                responsibilities for both the web and mobile sections of the
+                applications, working with microservices that have multiple
+                configurations, and collaborating with the backend team.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/uiIcon.png")} alt="sitting" />
             <div className={styles.aboutItemsText}>
-              <h3>Frontend Developer</h3>
+              <h3>Self Learner</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                quaerat aut eius. Fugit fugiat optio accusantium corrupti, totam
-                quibusdam ratione, expedita non quod illo ipsa tempore
-                voluptatibus delectus eius ex?
+                A dedicated self-learner, I continuously expand my frontend
+                development skills, stay updated with the latest industry
+                trends, and explore emerging technologies. I’m committed to
+                delivering high-quality solutions and eager to contribute to
+                innovative projects as part of your team.
               </p>
             </div>
           </li>
