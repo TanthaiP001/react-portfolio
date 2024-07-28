@@ -4,7 +4,7 @@
     "organisation": "InterOpcare",
     "startDate": "Sept, 2023",
     "endDate": "2024",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+    "experiences": ["Worked on PDPA Login", "Designed the coupon and discount"],
     "imageSrc": "history/interop.jpg"
   },
   {
@@ -12,7 +12,7 @@
     "organisation": "Opensource",
     "startDate": "Aug, 2022",
     "endDate": "Aug, 2023",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
+    "experiences": ["Worked on Microservice/HospitalOS", "Manage with Learning webApp"],
     "imageSrc": "history/open.jpg"
   },
   {

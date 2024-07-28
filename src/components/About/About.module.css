@@ -27,6 +27,10 @@
 
 .aboutImage {
   width: 35%;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .aboutItems {
@@ -51,6 +55,17 @@
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: 0.4s;
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }
 
 .aboutItem:hover {
