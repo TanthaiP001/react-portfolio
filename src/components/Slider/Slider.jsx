@@ -3,6 +3,7 @@ import React from "react";
 const Slider = () => {
   return (
     <div className="wrapper" id="slider">
+      <h2>UI Design Showcase</h2>
       <div className="container">
         <input type="radio" name="slide" id="c1" defaultChecked />
         <label htmlFor="c1" className="card">

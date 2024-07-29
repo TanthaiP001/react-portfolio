@@ -1,6 +1,6 @@
 [
     {
-      "title": "GeminiAi Clone",
+      "title": "Gemini Chat Clone",
       "imageSrc": "projects/gemini.png",
       "description": "This is a project made to learn the ReactJs and GeminiApi.",
       "skills": ["React", "HTML", "CSS"],
@@ -11,17 +11,17 @@
       "title": "Spotify Clone",
       "imageSrc": "projects/spoti.jpg",
       "description": "This is a project made to learning only.",
-      "skills": ["React", "Express", "Node", "Sass"],
+      "skills": ["React", "JS", "HTML", "CSS"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
-      "title": "Netflix",
-      "imageSrc": "projects/net.jpg",
+      "title": "Pallarax Website",
+      "imageSrc": "projects/palax.png",
       "description": "This is a project made to learning only.",
-      "skills": ["React", "Express", "Node"],
+      "skills": ["HTML", "CSS", "JS"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/TanthaiP001/Parallax-forest"
     }
   ]
   
