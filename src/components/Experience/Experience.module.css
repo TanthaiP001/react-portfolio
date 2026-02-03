@@ -2,120 +2,149 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 79px;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding: var(--section-padding) 10%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
+  margin-bottom: var(--space-2xl);
+  text-align: center;
 }
 
-.content {
+.timeline {
+  position: relative;
+  padding-left: 0;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 24px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    180deg,
+    var(--color-primary) 0%,
+    var(--color-border) 100%
+  );
+  border-radius: 2px;
+}
+
+.timelineItem {
+  position: relative;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 14px;
+  gap: var(--space-xl);
+  padding-bottom: var(--space-2xl);
+  padding-left: 0;
+  list-style: none;
 }
 
-.skills {
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 37px;
+.timelineItem:last-child {
+  padding-bottom: 0;
 }
 
-.skill {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 11px;
-}
-
-.skillImageContainer {
-  background-color: #576cbc;
-  border-radius: 100%;
+.timelineMarker {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--color-surface);
+  border: 2px solid var(--color-primary);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
-  height: 120px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 0 0 4px var(--color-bg);
 }
 
-.skillImageContainer img {
-  width: 75px;
+.timelineLogo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
 }
 
-.skill p {
-  font-size: 25px;
-  font-family: var(--font-roboto);
-  font-weight: 500;
+.timelineContent {
+  flex: 1;
+  min-width: 0;
+  padding-top: 2px;
 }
 
-.history {
-  width: 45%;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+.timelinePeriod {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-primary-light);
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
 }
 
-.historyItem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 17px;
-  background: #3772FF;
-  background: linear-gradient(90deg, #576cbc 0%, rgba(25, 55, 109, 0) 100%);
-  border-radius: 10px;
-  padding: 24px;
+.timelineRole {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 2px;
 }
 
-.historyItem img {
-  width: 50px;
-  border-radius: 5px;
+.timelineCompany {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  margin-bottom: 2px;
 }
 
-.historyItemDetails {
-  font-family: var(--font-roboto);
+.timelineLocation {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  opacity: 0.9;
+  margin-bottom: var(--space-md);
 }
 
-.historyItemDetails h3 {
-  font-size: 30px;
-  font-weight: 500;
-}
-
-.historyItemDetails p {
-  font-size: 20px;
-  font-weight: 300;
-}
-
-.historyItemDetails ul {
-  margin-top: 6px;
-  list-style-position: inside;
-  font-size: 25px;
+.timelineList {
+  margin: 0;
+  padding-left: 1.2em;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
   list-style-type: disc;
-  margin-left: 17px;
 }
 
-@media screen and (max-width: 830px) {
-  .content {
-    flex-direction: column;
-    align-items: center;
-    gap: 34px;
+.timelineList li {
+  margin-bottom: 4px;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    padding: var(--section-padding) 5%;
   }
 
-  .skills {
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
+  .timeline::before {
+    left: 18px;
   }
 
-  .history {
-    width: 100%;
-    gap: 9px;
+  .timelineItem {
+    gap: var(--space-md);
+  }
+
+  .timelineMarker {
+    width: 40px;
+    height: 40px;
+  }
+
+  .timelineLogo {
+    width: 22px;
+    height: 22px;
+  }
+
+  .timelineRole {
+    font-size: 1.05rem;
+  }
+
+  .timelineList {
+    font-size: 0.85rem;
   }
 }

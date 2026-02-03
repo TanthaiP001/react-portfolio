@@ -1,29 +1,46 @@
 [
   {
-    "role": "Software Developer",
-    "organisation": "InterOpcare",
-    "startDate": "Sept, 2023",
-    "endDate": "2024",
-    "experiences": ["Worked on PDPA Login", "Designed the coupon and discount"],
-    "imageSrc": "history/interop.jpg"
-  },
-  {
-    "role": "Frontend Developer",
-    "organisation": "Opensource",
-    "startDate": "Aug, 2022",
-    "endDate": "Aug, 2023",
-    "experiences": ["Worked on Microservice/HospitalOS", "Manage with Learning webApp"],
-    "imageSrc": "history/open.jpg"
-  },
-  {
-    "role": "Collegian",
-    "organisation": "Burapha University",
-    "startDate": "Apr, 2019",
-    "endDate": "Jun, 2022",
+    "role": "Fullstack Developer",
+    "organisation": "Winter Egency",
+    "startDate": "2026",
+    "endDate": "Present",
+    "location": "140 Wireless, Embassy Row (Wireless & Sarasin Rd.), Bangkok",
     "experiences": [
-      "VR University Project",
-      "AR University Project"
+      "Working as a Fullstack Developer at Winter Egency, collaborating across group-level digital product teams.",
+      "Contributing to system architecture, code quality, and development standards across multiple projects.",
+      "Collaborating with designers, backend engineers, and stakeholders using Agile methodologies.",
+      "Building scalable, maintainable, and performance-oriented web applications."
     ],
-    "imageSrc": "history/burapha.jpg"
+    "imageSrc": "history/winter.jpg"
+  },
+  {
+    "role": "Fullstack Developer",
+    "organisation": "Techstellar Co., Ltd.",
+    "startDate": "Aug 2024",
+    "endDate": "2026",
+    "location": "140 Wireless, Embassy Row (Wireless & Sarasin Rd.), Bangkok",
+    "experiences": [
+      "Developed and maintained e-commerce web applications with full CMS capabilities, including product catalogs, promotions, coupons, and multi-branch support.",
+      "Built and enhanced admin dashboards for managing products, banners, and marketing campaigns.",
+      "Implemented responsive UI for customer-facing and admin systems using SCSS, Tailwind CSS, and Reactstrap.",
+      "Collaborated closely with designers and backend teams to deliver features efficiently.",
+      "Ensured cross-device compatibility, usability, and scalability across platforms."
+    ],
+    "imageSrc": "history/tech.jpg"
+  },
+  {
+    "role": "Software Developer",
+    "organisation": "Open Source Technology Co., Ltd.",
+    "startDate": "Aug 2023",
+    "endDate": "Aug 2024",
+    "location": "Phuket, Thailand",
+    "experiences": [
+      "Designed and developed a scalable CMS for internal hospital systems.",
+      "Built intuitive dashboard interfaces for hospital staff, including service point configuration.",
+      "Integrated Google Maps API for location-based service management.",
+      "Developed pet profile systems linked with owner data, ensuring data integrity and accessibility.",
+      "Delivered secure and maintainable applications in collaboration with cross-functional teams."
+    ],
+    "imageSrc": "history/open.jpg"
   }
 ]

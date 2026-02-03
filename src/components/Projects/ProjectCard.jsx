@@ -9,28 +9,27 @@ export const ProjectCard = ({
     <div className={styles.container}>
       <img
         src={getImageUrl(imageSrc)}
-        alt={`Image of ${title}`}
+        alt={`${title} project`}
         className={styles.image}
-        style={{ height: '150px' }}
       />
-      <h3 className={styles.title}>{title}</h3>
-      <p className={styles.description}>{description}</p>
-      <ul className={styles.skills}>
-        {skills.map((skill, id) => {
-          return (
+      <div className={styles.content}>
+        <h3 className={styles.title}>{title}</h3>
+        <p className={styles.description}>{description}</p>
+        <ul className={styles.skills}>
+          {skills.map((skill, id) => (
             <li key={id} className={styles.skill}>
               {skill}
             </li>
-          );
-        })}
-      </ul>
-      <div className={styles.links}>
-        <a href={demo} className={styles.link}>
-          Demo
-        </a>
-        <a href={source} className={styles.link}>
-          Source
-        </a>
+          ))}
+        </ul>
+        <div className={styles.links}>
+          <a href={demo} className={styles.link} target="_blank" rel="noopener noreferrer">
+            Demo
+          </a>
+          <a href={source} className={styles.link} target="_blank" rel="noopener noreferrer">
+            Source
+          </a>
+        </div>
       </div>
     </div>
   );
